@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(debugShowCheckedModeBanner: false,
-      initialRoute: Screen1.routeName
+      initialRoute: Screen2.routeName
       , routes:{
         Screen1.routeName :(context) => Screen1(),
         Screen2.routeName :(context) => Screen2(),

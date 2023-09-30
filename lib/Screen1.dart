@@ -176,7 +176,7 @@ class _Screen1State extends State<Screen1> {
                   enlargeCenterPage: true,
                   aspectRatio: 1,
                   autoPlay: true,
-                  enlargeFactor: 1),
+                  ),
               items: [1, 2, 3].map((i) {
                 return Builder(
                   builder: (BuildContext context) {
@@ -288,7 +288,8 @@ class _Screen1State extends State<Screen1> {
                       child: Container(
                         height: 56,
                         width: 151,
-                        color: Color(0xFFFDF2FA),
+                        color: Color(0xFFFDF2FA
+                        ),
                         child: Row(children: [
                           Image.asset(
                             "asset/image/Group9.png",
@@ -312,7 +313,7 @@ class _Screen1State extends State<Screen1> {
                       child: Container(
                         height: 56,
                         width: 151,
-                        color: Color(0xFFF9F5FF),
+                        color: Color(0xFFFFFAF5),
                         child: Row(children: [
                           Image.asset(
                             "asset/image/Group8.png",
@@ -329,7 +330,7 @@ class _Screen1State extends State<Screen1> {
                       child: Container(
                         height: 56,
                         width: 151,
-                        color: Color(0xFFF9F5FF),
+                        color: Color(0xFFF0F9FF),
                         child: Row(children: [
                           Image.asset(
                             "asset/image/Group(1).png",
